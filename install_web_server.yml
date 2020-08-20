@@ -1,0 +1,10 @@
+---
+- name: install web server
+  hosts: web
+  tasks:
+  - name: install web server - Nginx
+    package: 
+      name: nginx
+      state: present
+
+    become: yes

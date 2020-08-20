@@ -1,0 +1,8 @@
+[web]
+servidora ansible_host=127.0.0.1
+
+[dbprogress]
+
+[all:children]
+web
+dbprogress
